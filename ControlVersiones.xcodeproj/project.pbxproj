@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF355B881C1DAEED00FD4B03 /* pruebaPush in Resources */ = {isa = PBXBuildFile; fileRef = CF355B871C1DAEED00FD4B03 /* pruebaPush */; };
 		CFD55C181C1DABE00002283F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD55C171C1DABE00002283F /* Foundation.framework */; };
 		CFD55C1A1C1DABE00002283F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD55C191C1DABE00002283F /* CoreGraphics.framework */; };
 		CFD55C1C1C1DABE00002283F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD55C1B1C1DABE00002283F /* UIKit.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF355B871C1DAEED00FD4B03 /* pruebaPush */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pruebaPush; sourceTree = "<group>"; };
 		CFD55C141C1DABE00002283F /* ControlVersiones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlVersiones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD55C171C1DABE00002283F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CFD55C191C1DABE00002283F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -127,6 +129,7 @@
 				CFD55C291C1DABE00002283F /* GitHubAppDelegate.m */,
 				CFD55C2B1C1DABE00002283F /* Main.storyboard */,
 				CFD55C311C1DABE00002283F /* GitHubMasterViewController.h */,
+				CF355B871C1DAEED00FD4B03 /* pruebaPush */,
 				CFD55C321C1DABE00002283F /* GitHubMasterViewController.m */,
 				CFD55C341C1DABE00002283F /* GitHubDetailViewController.h */,
 				CFD55C351C1DABE00002283F /* GitHubDetailViewController.m */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFD55C381C1DABE00002283F /* Images.xcassets in Resources */,
+				CF355B881C1DAEED00FD4B03 /* pruebaPush in Resources */,
 				CFD55C241C1DABE00002283F /* InfoPlist.strings in Resources */,
 				CFD55C2D1C1DABE00002283F /* Main.storyboard in Resources */,
 			);
@@ -473,6 +477,7 @@
 				CFD55C511C1DABE00002283F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFD55C521C1DABE00002283F /* Build configuration list for PBXNativeTarget "ControlVersionesTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +486,7 @@
 				CFD55C541C1DABE00002283F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
